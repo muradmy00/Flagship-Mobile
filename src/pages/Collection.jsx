@@ -122,9 +122,9 @@ const Collection = () => {
       {/* Filter option */}
 
       <div className="min-w-60">
-
+        
         <p onClick={()=> setShowFilter(!showFilter)} className="my-2 text-xl items-center cursor-pointer gap-2">Filters
-          <img  src={assets.dropdown_icon} className={`h-3 sm:hidden ${showFilter?'rotate-90':''}`} alt="" />
+        <img  src={assets.dropdown_icon} className={`h-3 sm:hidden ${showFilter?'rotate-90':''}`} alt="" />
         </p>
 
         {/* Category Filter */}

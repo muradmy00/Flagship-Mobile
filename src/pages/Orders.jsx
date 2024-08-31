@@ -20,7 +20,7 @@ const Orders = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Your Order Successfully");
+      setResult("Your Order Successfully.Wait for Response");
       event.target.reset();
     } else {
       console.log("Error", data);
