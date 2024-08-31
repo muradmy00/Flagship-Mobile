@@ -52,7 +52,7 @@ const Footer = () => {
 
      <hr />
 
-        <p className="py-5 text-sm text-center">© Copyright <a className="text-orange-500" href="https://muradmy00.github.io/My-Portfolio/">@murad00.</a> All Rights Reserved 2024</p>
+        <p className="py-5 text-sm text-center">© Copyright <a target="none" className="text-orange-500" href="https://muradmy00.github.io/My-Portfolio/">@murad00.</a> All Rights Reserved 2024</p>
 
     </div>
 
